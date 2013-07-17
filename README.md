@@ -9,5 +9,5 @@ $ docker build -t mizzy/docker-ci-demo .
 # Run tests
 
 ```
-$ docker run -i -t mizzy/serverspec /docker-ci-demo/test.sh
+$ docker run -i -t mizzy/docker-ci-demo /docker-ci-demo/test.sh
 ```
