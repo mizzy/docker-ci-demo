@@ -8,3 +8,5 @@ RUN gem install puppet --no-ri --no-rdoc
 
 RUN git clone https://github.com/mizzy/docker-ci-demo.git
 
+CMD /docker-ci-demo/test.sh
+
