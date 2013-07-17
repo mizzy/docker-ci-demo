@@ -5,5 +5,7 @@ git pull origin master
 
 puppet apply httpd.pp
 
+sleep 10
+
 rake spec
 
