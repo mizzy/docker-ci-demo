@@ -1,0 +1,2 @@
+package { 'httpd': ensure => installed }
+
