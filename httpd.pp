@@ -7,6 +7,6 @@ service { 'httpd':
 }
 
 file { '/etc/httpd/conf/httpd.conf':
-  source  => 'httpd.conf',
+  source  => 'file:///docker-ci-demo/httpd.conf',
   require => Package['httpd'],
 }

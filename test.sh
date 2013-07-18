@@ -5,7 +5,5 @@ cd /docker-ci-demo
 
 puppet apply httpd.pp
 
-#sleep 1
-
 rake spec
 
