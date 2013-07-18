@@ -6,3 +6,7 @@ service { 'httpd':
   require => Package['httpd'],
 }
 
+file { '/etc/httpd/conf/httpd.conf':
+  source  => 'httpd.conf',
+  require => Package['httpd'],
+}
