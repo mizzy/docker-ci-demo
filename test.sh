@@ -6,10 +6,10 @@ cd /docker-ci-demo
 echo
 echo "********** Running puppet apply ... **********"
 echo
-puppet apply httpd.pp --color=html
+puppet apply httpd.pp --color=false
 
 echo
 echo "********** Running serverspec ... **********"
 echo 
-rake spec SPEC_OPTS="--colour --format html"
+rake spec
 

@@ -1,8 +1,8 @@
 FROM centos
 
 RUN yum install -y vim
-RUN yum install -y git
 RUN yum install -y httpd
+RUN yum install -y git
 RUN yum install -y rubygems
 
 RUN gem install rake serverspec --no-ri --no-rdoc
